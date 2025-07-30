@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  <run>
+  <include name="sanity"></include>
+  <exclude name="regression"></exclude>
+  </run>
+  
+  </groups>  <classes>
+      <class name="day7.Test_Kite"/>
+      <class name="day7.SuiteClass_1"/>
+      <class name="day8.TestNG3_Grouping"/>
+      <class name="day8.TestNG1"/>
+      <class name="day8.Annotations"/>
+      <class name="day8.TestNG2"/>
+      <class name="day7.SuiteClass_3"/>
+      <class name="day7.SuiteClass_2"/>
+      <class name="day7.Kite_1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
