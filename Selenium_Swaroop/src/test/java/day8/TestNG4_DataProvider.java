@@ -42,7 +42,7 @@ public class TestNG4_DataProvider {
 		Thread.sleep(2000);
 		driver.findElement(By.id("email")).sendKeys(username);
 		driver.findElement(By.id("pass")).sendKeys(password);
-		System.out.println("Hello");
+		
 	}
 
 }
